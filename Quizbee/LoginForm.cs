@@ -25,6 +25,10 @@ namespace Quizbee
             if(username == "admin" && password == "12345")
             {
                 //login and show form
+
+                MainForm mainform = new MainForm();
+                mainform.ShowDialog();
+                
             }
             else
             {
