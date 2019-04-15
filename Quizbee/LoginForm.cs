@@ -16,5 +16,20 @@ namespace Quizbee
         {
             InitializeComponent();
         }
+
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+            string username = txtUsername.Text;
+            string password = txtPassword.Text;
+
+            if(username == "admin" && password == "12345")
+            {
+                //login and show form
+            }
+            else
+            {
+                MessageBox.Show("Invalid Login", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
     }
 }
