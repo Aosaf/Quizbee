@@ -47,7 +47,7 @@
             this.lblQuestion.Location = new System.Drawing.Point(116, 90);
             this.lblQuestion.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblQuestion.Name = "lblQuestion";
-            this.lblQuestion.Size = new System.Drawing.Size(967, 111);
+            this.lblQuestion.Size = new System.Drawing.Size(847, 111);
             this.lblQuestion.TabIndex = 0;
             this.lblQuestion.Text = " ";
             // 
@@ -58,10 +58,9 @@
             this.rdbOption1.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rdbOption1.Location = new System.Drawing.Point(122, 204);
             this.rdbOption1.Name = "rdbOption1";
-            this.rdbOption1.Size = new System.Drawing.Size(975, 36);
+            this.rdbOption1.Size = new System.Drawing.Size(855, 36);
             this.rdbOption1.TabIndex = 1;
             this.rdbOption1.TabStop = true;
-            this.rdbOption1.Text = " ";
             this.rdbOption1.UseVisualStyleBackColor = true;
             // 
             // rdbOption2
@@ -71,7 +70,7 @@
             this.rdbOption2.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rdbOption2.Location = new System.Drawing.Point(122, 246);
             this.rdbOption2.Name = "rdbOption2";
-            this.rdbOption2.Size = new System.Drawing.Size(975, 36);
+            this.rdbOption2.Size = new System.Drawing.Size(855, 36);
             this.rdbOption2.TabIndex = 2;
             this.rdbOption2.TabStop = true;
             this.rdbOption2.Text = " ";
@@ -84,7 +83,7 @@
             this.rdbOption4.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rdbOption4.Location = new System.Drawing.Point(122, 330);
             this.rdbOption4.Name = "rdbOption4";
-            this.rdbOption4.Size = new System.Drawing.Size(975, 36);
+            this.rdbOption4.Size = new System.Drawing.Size(855, 36);
             this.rdbOption4.TabIndex = 4;
             this.rdbOption4.TabStop = true;
             this.rdbOption4.Text = " ";
@@ -97,7 +96,7 @@
             this.rdbOption3.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rdbOption3.Location = new System.Drawing.Point(122, 288);
             this.rdbOption3.Name = "rdbOption3";
-            this.rdbOption3.Size = new System.Drawing.Size(975, 36);
+            this.rdbOption3.Size = new System.Drawing.Size(855, 36);
             this.rdbOption3.TabIndex = 3;
             this.rdbOption3.TabStop = true;
             this.rdbOption3.Text = " ";
@@ -106,7 +105,7 @@
             // btnNext
             // 
             this.btnNext.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnNext.Location = new System.Drawing.Point(967, 387);
+            this.btnNext.Location = new System.Drawing.Point(847, 387);
             this.btnNext.Name = "btnNext";
             this.btnNext.Size = new System.Drawing.Size(116, 52);
             this.btnNext.TabIndex = 5;
@@ -117,7 +116,7 @@
             // btnSkip
             // 
             this.btnSkip.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnSkip.Location = new System.Drawing.Point(845, 387);
+            this.btnSkip.Location = new System.Drawing.Point(725, 387);
             this.btnSkip.Name = "btnSkip";
             this.btnSkip.Size = new System.Drawing.Size(116, 52);
             this.btnSkip.TabIndex = 6;
@@ -128,7 +127,7 @@
             // btnSubmit
             // 
             this.btnSubmit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnSubmit.Location = new System.Drawing.Point(723, 387);
+            this.btnSubmit.Location = new System.Drawing.Point(603, 387);
             this.btnSubmit.Name = "btnSubmit";
             this.btnSubmit.Size = new System.Drawing.Size(116, 52);
             this.btnSubmit.TabIndex = 7;
@@ -141,7 +140,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1200, 727);
+            this.ClientSize = new System.Drawing.Size(1080, 631);
             this.Controls.Add(this.btnSubmit);
             this.Controls.Add(this.btnSkip);
             this.Controls.Add(this.btnNext);
@@ -152,9 +151,10 @@
             this.Controls.Add(this.lblQuestion);
             this.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.MaximizeBox = false;
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "MainForm";
+            this.Text = "Quizbee";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.MainForm_Load);
             this.ResumeLayout(false);

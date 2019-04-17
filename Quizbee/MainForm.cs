@@ -110,16 +110,16 @@ namespace Quizbee
 
         private void LoadQuestions()
         {
-            QuizQuestions[0] = new Question() { Title = "The output shown on the computer monitor is called", Option1 = "Hard Copy", Option2 = "Soft Copy", Option3 = "Screen Copy", Option4 = "op 4", CorrectOption = 2 };
-            QuizQuestions[1] = new Question() { Title = "Eight Bits make up a", Option1 = "byte", Option2 = "megabyte", Option3 = "kilobyte", Option4 = "op 4", CorrectOption = 2 };
-            QuizQuestions[2] = new Question() { Title = "Which one of these also known as read/write memory", Option1 = "ROM", Option2 = "RAM", Option3 = "Hard Disk", Option4 = "op 4", CorrectOption = 2 };
-            QuizQuestions[3] = new Question() { Title = "The printed output from a computer is called", Option1 = "Soft Copy", Option2 = "Hard Copy", Option3 = "Paper", Option4 = "op 4", CorrectOption = 2 };
-            QuizQuestions[4] = new Question() { Title = "WWW stands for?", Option1 = "World Whole Web", Option2 = "Wide World Web", Option3 = "World Wide Web", Option4 = "op 4", CorrectOption = 2 };
-            QuizQuestions[5] = new Question() { Title = "If a computer has more than one processor then it is known as ?", Option1 = "Multiprocessor", Option2 = "Multithreaded", Option3 = "Multiprogramming", Option4 = "op 4", CorrectOption = 2 };
-            QuizQuestions[6] = new Question() { Title = "Full form of URL is ?", Option1 = "Uniform Resource Locator", Option2 = "Uniform Resource Link", Option3 = "Uniform Registered Link", Option4 = "op 4", CorrectOption = 2 };
-            QuizQuestions[7] = new Question() { Title = "In which of the following form, data is stored in computer ?", Option1 = "Decimal", Option2 = "Binary", Option3 = "HexaDecimal", Option4 = "op 4", CorrectOption = 2 };
-            QuizQuestions[8] = new Question() { Title = "Which level language is Assembly Language ?", Option1 = "high-level programming language", Option2 = "medium-level programming language", Option3 = "low-level programming language", Option4 = "op 4", CorrectOption = 2 };
-            QuizQuestions[9] = new Question() { Title = "Who is also known as Father of Computer ?", Option1 = "Vint Cerf", Option2 = "Tim Berner Lee", Option3 = "Charles Babbage", Option4 = "op 4", CorrectOption = 2 };
+            QuizQuestions[0] = new Question() { Title = "The output shown on the computer monitor is called", Option1 = "Hard Copy", Option2 = "Soft Copy", Option3 = "Screen Copy", Option4 = "None of the above", CorrectOption = 2 };
+            QuizQuestions[1] = new Question() { Title = "Eight Bits make up a", Option1 = "byte", Option2 = "megabyte", Option3 = "kilobyte", Option4 = "None of the above", CorrectOption = 2 };
+            QuizQuestions[2] = new Question() { Title = "Which one of these also known as read/write memory", Option1 = "ROM", Option2 = "RAM", Option3 = "Hard Disk", Option4 = "None of the above", CorrectOption = 2 };
+            QuizQuestions[3] = new Question() { Title = "The printed output from a computer is called", Option1 = "Soft Copy", Option2 = "Hard Copy", Option3 = "Paper", Option4 = "None of the above", CorrectOption = 2 };
+            QuizQuestions[4] = new Question() { Title = "WWW stands for?", Option1 = "World Whole Web", Option2 = "Wide World Web", Option3 = "World Wide Web", Option4 = "None of the above", CorrectOption = 2 };
+            QuizQuestions[5] = new Question() { Title = "If a computer has more than one processor then it is known as ?", Option1 = "Multiprocessor", Option2 = "Multithreaded", Option3 = "Multiprogramming", Option4 = "None of the above", CorrectOption = 2 };
+            QuizQuestions[6] = new Question() { Title = "Full form of URL is ?", Option1 = "Uniform Resource Locator", Option2 = "Uniform Resource Link", Option3 = "Uniform Registered Link", Option4 = "None of the above", CorrectOption = 2 };
+            QuizQuestions[7] = new Question() { Title = "In which of the following form, data is stored in computer ?", Option1 = "Decimal", Option2 = "Binary", Option3 = "HexaDecimal", Option4 = "None of the above", CorrectOption = 2 };
+            QuizQuestions[8] = new Question() { Title = "Which level language is Assembly Language ?", Option1 = "high-level programming language", Option2 = "medium-level programming language", Option3 = "low-level programming language", Option4 = "None of the above", CorrectOption = 2 };
+            QuizQuestions[9] = new Question() { Title = "Who is also known as Father of Computer ?", Option1 = "Vint Cerf", Option2 = "Tim Berner Lee", Option3 = "Charles Babbage", Option4 = "None of the above", CorrectOption = 2 };
         }
 
     }
